@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+.logo img{
+    margin-top: 35px;
+    margin-left: 100px;
+    height: 22px;
+}
+header nav ul{
+    display: flex;
+     margin-left: 400px;
+    list-style: none;
+    margin-top: 35px;
+}
+
+header nav ul a{
+    margin-left: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: black;
+}
+header button{
+    height: 40px;
+    width: 140px;
+    margin-top: 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    background-color: rgb(50, 190, 50);
+    color: white ;
+    border: none;
+    border-radius: 10px;
+}
+.less h1{
+    margin-top: 50px;
+    width: 600px;
+    font-size: 60px;
+}
+.less p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: gray;
+}
+.less button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+}
+.less{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.less span{
+    color: green;
+}
+.lesson{
+    display: flex;
+}
+
+.lessimg img{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.container-01{
+    background-color: rgb(236, 234, 234);
+    margin-top: 30px;
+}
+
+.client h1{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(63, 62, 62);
+}
+
+.client p{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+     color: rgb(78, 77, 77);
+}
+
+.clientimg{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 80px;
+      margin-top: 20px;
+}
+.container-02{
+  padding: 20px;
+}
+
+.manage h1{
+    width: 450px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 30px;
+    color: rgb(63, 62, 62);
+}
+
+.manage p{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(63, 62, 62);
+}
+
+.card{
+    border: 1px solid black;
+    width: 250px;
+    border: none;
+  box-shadow: 2px 2px 2px 2px rgb(192, 192, 192);
+}
+
+.card img{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 20px;
+    width: 100px;
+    margin-left: 70px;
+}
+
+.card p{
+    margin-top: 10px;
+    width: 170px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.car{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+}
+
+.container-03{
+    margin-top: 20px;
+}
+.unseen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.unstory h2{
+    width: 500px;
+    font-size: 35px;
+}
+
+.unstory p{
+    width: 500px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: gray;
+}
+.unstory{
+    margin-top: 40px;
+}
+.container-04{
+    margin-top: 30px;
+}
+
+.unstory button{
+    height: 40px;
+    width: 140px;
+    margin-top: 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    background-color: rgb(50, 190, 50);
+    color: white ;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.stats-section {
+  padding: 60px 20px;
+  background-color: #eee;
+}
+
+.container-05 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-content {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.text-content h1 span {
+  color: #21ba45; /* Green */
+}
+
+.text-content p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex: 1 1 45%;
+  gap: 20px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat-item .icon {
+  font-size: 2rem;
+  color: #21ba45;
+}
+
+.stat-item h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.timstory p{
+    width: 800px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+    line-height: 30px;
+}
+.timstory h6{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    color: #21ba45;
+}
+.timimg2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+}
+.tim{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+
+.timimg2 span{
+    color: green;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.container-07{
+    background-color: rgb(241, 240, 240);margin-top: 20px;
+}
+
+
+.care h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.care p{
+    width: 500px;
+    text-align: center;
+    margin-left: 420px;
+    margin-top: 20px;
+    font-size: 15px;color: gray;
+}
+.careimg img{
+    height: 250px;
+}
+
+.carecrete{
+    border:  1px solid black;
+    width: 320px;
+    border: none;
+}
+
+.careimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top:30px ;
+}
+.carecrete h3{
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 70px;
+    text-align: center;
+}
+.carecrete p{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: green;
+    font-weight: 800;
+}
+.container-08 h1{
+    width: 400px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.container-08 button{
+      height: 40px;
+    width: 140px;
+    margin-top: 25px;
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: green;
+    color: white ;
+    border: none;
+    border-radius: 10px;
+    margin-left: 600px;
+}
+
+.nex img{
+    height: 30px;
+    margin-left: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    background-color: #000;
+    color: white;
+    padding-top: 50px;
+}
+.nex h1{
+    font-size: 40px;
+}
+.nex p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 247px;
+    text-align: center;
+}
+.compay h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.suppot h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.stay h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.compay p{
+    margin-top: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+.suppot p{
+    margin-top: 5px;
+    font-size: 17px;
+    color: white;
+}
+.stay p{
+     margin-top: 5px;
+    font-size: 17px;
+    color: white;
+}
+input[type=email]{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 170px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+  
+}
+.nex i{
+    margin-left: 30px;
+    font-size: 25px;
+
+}
+.stay i{
+    border: none;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+
+
+
+/* media querry */
+
+@media(max-width:768px){
+ 
+    header{
+    display: inline-block;
+}
+
+.logo img{
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 22px;
+}
+header nav ul{
+    display: block;
+     margin-left: 30px;
+    list-style: none;
+    margin-top: 25px;
+}
+
+header nav ul a{
+    margin-left: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: black;
+
+}
+header button{
+    height: 40px;
+    width: 140px;
+    margin-top: 19px;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-left: 60px;
+    background-color: rgb(50, 190, 50);
+    color: white ;
+    border: none;border-radius: 10px;
+}
+
+.less h1{
+    margin-top: 50px;
+    width: 350px;
+    font-size: 40px;
+}
+.less p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+    width: 200px;
+}
+.less button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+}
+.less{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.less span{
+    color: green;
+}
+.lesson{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.lessimg img{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.container-01{
+    background-color: rgb(236, 234, 234);
+    margin-top: 30px;
+}
+.manage h1{
+    width: 370px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: rgb(63, 62, 62);
+    font-size: 26px;
+}
+
+.manage p{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(63, 62, 62);
+}
+.unseen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.unstory h2{
+    width: 300px;
+    font-size: 25px;
+    margin-left: 20px;
+    
+}
+
+.unstory p{
+    width: 350px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.unstory{
+    margin-top: 40px;
+}
+.container-04{
+    margin-top: 30px;
+}
+
+.unstory button{
+    height: 40px;
+    width: 140px;
+    margin-top: 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    background-color: rgb(50, 190, 50);
+    color: white ;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.timstory p{
+    width: 400px;
+    margin-top: 30px;
+    font-size: 12px;
+    color: gray;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.timstory h6{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    color: #21ba45;
+    margin-left: 40px;
+}
+.timimg2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.tim{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+
+.timimg2 span{
+    color: green;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.care h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.care p{
+    width: 400px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.container-08 h1{
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.container-08 button{
+      height: 40px;
+    width: 140px;
+    margin-top: 25px;
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: green;
+    color: white ;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+
+
+}
